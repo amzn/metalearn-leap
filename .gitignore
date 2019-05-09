@@ -1,0 +1,12 @@
+*.DS_Store
+docs/*/*.aux
+docs/*/*.bbl
+docs/*/*.fls
+docs/*/*.blg
+docs/*/*.log
+docs/*/*.out
+*.pth.tar
+src/*/data
+*.fdb_latexmk
+*.gz
+__pycache__
