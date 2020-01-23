@@ -241,7 +241,7 @@ class SubOmniglot(_Omniglot):
 
     def _set_images(self):
         """Set images"""
-        if self.train:
+        if self._train:
             self._flat_character_images = self._flat_train_character_images
         else:
             self._flat_character_images = self._flat_val_character_images
